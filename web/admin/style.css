@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    text-align: center;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+    background: transparent;
+}
+
+.btn {
+    width: 100%;
+    background: #333;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}

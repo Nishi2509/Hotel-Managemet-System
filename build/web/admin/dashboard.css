@@ -1,0 +1,148 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.logout-button,
+.shutdown-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+/* Button styles */
+button,
+input[type="submit"],
+input[type="button"] {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Form styles */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Team member styles */
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+/* Add styles for contact details */
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contact-details div {
+    display: flex;
+    align-items: center;
+}
+
+.contact-details div i {
+    margin-right: 10px;
+}
+
+/* Style the icon-input div for social media inputs */
+.icon-input {
+    display: flex;
+    align-items: center;
+}
+
+.icon-input i {
+    margin-right: 10px;
+    font-size: 20px;
+}
